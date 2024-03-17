@@ -1,0 +1,15 @@
+class fibonacci{
+    public static void main(String[] args){
+        int f=0,s=1,n,total=10;
+        System.out.print(f+" "+s);
+        for(int i=0;i<total;i++){
+            n=f+s;
+            System.out.print(" "+n);
+            f=s;
+            s=n;
+            if(n==5){
+                break;
+            }
+        }
+    }
+}
