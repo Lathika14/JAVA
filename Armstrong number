@@ -1,0 +1,19 @@
+class Armstrong{
+public static void main(String[] args){
+     int num=123;
+     int num1=num;
+     int arm=0;
+     while(num>0){
+         int rem=num%10;
+         arm=arm+(rem*rem*rem);
+         num=num/10;
+     }
+    if(num1==arm){
+        System.out.println("arm number");
+    }
+    System.out.println("not arm number");
+}
+}
+
+     
+    
